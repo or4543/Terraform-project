@@ -9,10 +9,3 @@ variable "user_name" {
   type        = string
   default     = "azure_user" 
 }
-
-variable "password" {
-  sensitive = true
-  description = "The virtual machine login password"
-  type        = string
-  default     = "Or1122334455" 
-}
